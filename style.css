@@ -41,3 +41,9 @@ header {
     text-align: center;
     padding: 1px;
 }
+
+nav a:hover {
+    text-decoration: unerline;
+    transform: scale(0.90);
+    transition: transform 0.1s;
+}
