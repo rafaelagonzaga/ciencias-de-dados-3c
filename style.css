@@ -54,6 +54,13 @@ nav a:hover {
  .grafico-container{
     margin: 5rem;
  }
+
+ .grafico-container_texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secundary-color) solid 2px;
+ }
  
 footer{
     display: flex;
