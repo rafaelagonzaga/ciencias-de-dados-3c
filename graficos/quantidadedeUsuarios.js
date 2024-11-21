@@ -1,7 +1,7 @@
 import { getCSS, tickConfig } from "./common.js"
 
 async function quantidadeUsuariosPorRede() {
-    const url = '';
+    const url = 'https://github.com/rafaelagonzaga/ciencias-de-dados-3c/blob/main/base-de-dados/educacao-etapas-de-ensino.json';
     const res = await fetch(url)
     const dados = await res.json()
     const nomeDasRedes = Object.keys(dados)
